@@ -359,7 +359,7 @@ body::-webkit-scrollbar-thumb {
 
 .scrollstyle_4::-webkit-scrollbar {
   width: 6px;
-  background-color: #f1f1f1;
+  background-color: #e5e5e5;
 }
 
 .scrollstyle_4::-webkit-scrollbar-thumb {
@@ -368,7 +368,7 @@ body::-webkit-scrollbar-thumb {
 
 .scrollstyle_4::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
-  background-color: #f5f5f5;
+  background-color: #e5e5e5;
 }
 
 /* === menu Scrollbar Chrome === */
@@ -1572,7 +1572,7 @@ span.right-cm {
 .job-skills a {
   font-size: 14px;
   font-weight: 400;
-  background: #fafafa;
+  background: #d6d5d5 !important;
   color: #757575;
   border: 1px solid #e5e5e5;
   padding: 6px 15px;
@@ -2281,6 +2281,7 @@ span.right-cm {
   float: left;
   width: 100%;
   padding: 80px 0;
+  background: #e5e5e5;
 }
 
 .browser-job-filters {
@@ -3340,8 +3341,8 @@ span.right-cm {
   width: 100%;
   margin-top: 30px;
   padding: 30px 0;
-  border-top: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .my_websites ul li {
@@ -3431,9 +3432,14 @@ span.right-cm {
   float: left;
   width: 100%;
   padding: 30px 0;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
-
+.for-input {
+  background: #d6d5d5 !important;
+}
+.for-input input {
+  background: none !important;
+}
 .rtl_left {
   float: left;
 }
@@ -3689,8 +3695,8 @@ span.right-cm {
 .account_tabs .nav-tabs .nav-item.show .nav-link,
 .account_tabs .nav-tabs .nav-link.active {
   color: #5855d6 !important;
-  background-color: #fff;
-  border-color: #e5e5e5 #e5e5e5 #fff !important;
+  background-color: #e5e5e5;
+  border-color: rgba(0, 0, 0, 0.15) !important;
 }
 
 .account_tabs .nav-link {
@@ -3704,12 +3710,13 @@ span.right-cm {
 
 .account_tabs .nav-link:hover {
   color: #5855d6 !important;
-  background-color: #fff;
-  border-color: #e5e5e5 #e5e5e5 #fff !important;
+  background-color: #e5e5e5;
+  border-color: rgba(0, 0, 0, 0.15) !important;
 }
 
 .account_tabs .nav-tabs {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .dsh150 {
@@ -3774,16 +3781,16 @@ span.right-cm {
 .view_chart {
   float: left;
   width: 100%;
-  background: #fff;
+  background: #e5e5e5;
   margin-top: 30px;
-  border: 1px solid #e5e5e5;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .view_chart_header {
   float: left;
   width: 100%;
   padding: 20px 20px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .view_chart_header h4 {
@@ -4022,6 +4029,7 @@ span.right-cm {
   height: 462px;
   float: left;
   width: 100%;
+  background: #e5e5e5;
 }
 .achieved-upload {
   float: right;
@@ -4044,7 +4052,7 @@ span.right-cm {
 .all_applied_jobs li {
   display: block;
   padding: 20px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   float: left;
   width: 100%;
 }
@@ -4680,20 +4688,20 @@ span.right-cm {
 .main-conversation-box {
   float: left;
   width: 100%;
-  background-color: #fff;
+  background-color: #e5e5e5;
   position: relative;
-  border-right: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
-  border-top: 1px solid #e5e5e5;
-  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .message-bar-head {
   float: left;
   width: 100%;
-  background-color: #fff;
+  background-color: #e5e5e5;
   padding: 10px 20px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -4876,7 +4884,7 @@ span.right-cm {
 .mf-field input {
   float: left;
   width: 100%;
-  background-color: #fff;
+  background-color: #e5e5e5;
   color: #757575;
   font-size: 14px;
   padding: 0 15px;
@@ -4980,9 +4988,9 @@ span.right-cm {
 }
 
 .bookmark_card .bookmark_collapse {
-  background-color: #fff;
+  background-color: #e5e5e5 !important;
   color: #242424;
-  border: 1px solid #e5e5e5;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
   cursor: pointer;
   padding: 15px 20px;
   width: 100%;
@@ -5047,12 +5055,12 @@ span.right-cm {
 
 .bookmark_card .card-body {
   padding: 0;
-  background: #fff;
+  background: #e5e5e5;
   overflow: hidden;
   border-top: none;
-  border-bottom: 1px solid #e5e5e5;
-  border-left: 1px solid #e5e5e5;
-  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-bottom-left-radius: 3px;
@@ -5063,9 +5071,9 @@ span.right-cm {
   background: #fff;
   overflow: hidden;
   border-top: none;
-  border-bottom: 1px solid #e5e5e5;
-  border-left: 1px solid #e5e5e5;
-  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-bottom-left-radius: 3px;
